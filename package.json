@@ -1,0 +1,27 @@
+{
+    "name": "es6-traceur",
+    "version": "0.0.1",
+    "description": "Testing node ES6 features and Traceur",
+    "main": "server/index",
+    "scripts": {
+        "start": "grunt && node --harmony server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "config": {
+        "build": "build",
+        "host": "localhost",
+        "port": "8080"
+    },
+    "author": "Martin E",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "connect": "~2.12.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-closurecompiler": "~0.9.9",
+        "grunt-template": "~0.2.2",
+        "grunt-traceur": "0.0.3",
+        "traceur": "0.0.9"
+    }
+}

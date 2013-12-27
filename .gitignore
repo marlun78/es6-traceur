@@ -1,0 +1,11 @@
+
+# System
+.DS_Store
+.idea
+
+# Directories
+build
+node_modules
+
+# Files
+*.log
